@@ -1,25 +1,16 @@
-# Initial page
+# Homepage
 
-## Getting Super Powers
+## Flattening Git history
 
 Becoming a super hero is a fairly straight forward process:
 
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
 ```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+$ git checkout --orphan future-master
+$ git add -A  # Add all files and commit them
+$ git commit
+$ git branch -D master  # Deletes the master branch
+$ git branch -m master  # Rename the current branch to master
+$ git push -f origin master  # Force push master branch to github
+$ git gc --aggressive --prune=all     # remove the old files
 ```
-{% endcode %}
-
-
 
