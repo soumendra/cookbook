@@ -1,5 +1,15 @@
 # Linux Tricks
 
+## Remap disfunctional keys in keyboard
+
+1. Remap keys system-wide
+
+https://askubuntu.com/questions/296155/how-can-i-remap-keyboard-keys
+
+2. Remap keys in vscode
+
+[Modify `settings.json` to include `"keyboard.dispatch": "keyCode"`!](https://github.com/microsoft/vscode/issues/23991)
+
 ## Split-download-combine a large file from a server
 
 ```text
