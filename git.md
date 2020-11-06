@@ -1,6 +1,6 @@
 # Git
 
-Becoming a super hero is a fairly straight forward process:
+## How to get rid of embarassing Github history?
 
 ```bash
 $ git checkout --orphan future-master

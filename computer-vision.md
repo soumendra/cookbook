@@ -1,5 +1,7 @@
 # Computer Vision
 
+## Resizing images: speed vs quality vs implementation
+
 Main filters for resizing: NEAREST, BILINEAR, BICUBIC, LANCZOS/ANTIALIAS
 
 1. **Speed**: NEAREST &gt; BILINEAR &gt; BICUBIC &gt; LANCZOS/ANTIALIAS
