@@ -60,7 +60,8 @@ docker run --gpus 2 nvidia/cuda:10.0-base nvidia-smi
 * `docker events`: 
 * `docker stop`: 
 * `docker rm -f`: 
-
+* `docker info`: 
+* `docker-inspect`: 
 
 ## Useful `docker run` options
 
@@ -98,10 +99,43 @@ Useful mostly when benchmarking, so that we know what resources are being used. 
   - Memory limit
   - The format is `<number>[<unit>]` (num>0, unit: `b`, `k`, `m`, `g`).
   - default: `inf`
-* `-c, --cpu-shares=0`: CPU shares (relative weight)
+* `-c, --cpu-shares=0`: CPU share between all running containers when running multiple containers (relative weight, default 1024 (same as 0))
 * `--cpus=0.000`: Number of CPUs. Number is a fractional number. 0.000 means no limit.
 * `--cpuset-cpus=""`: CPUs in which to allow execution (0-3, 0,1)
 
+### Logging
+
+Find the current default logging driver for the Docker daemon:
+
+```bash
+docker info --format '{{.LoggingDriver}}'
+```
+
+The default is usually `json-file`. To find the current logging driver for a running container:
+
+```bash
+docker inspect -f '{{.HostConfig.LogConfig.Type}}' <CONTAINER_NAME_OR_ID>
+```
+
+`json-file` is great for logging, can be specified with `--log-driver json-file`. Other options include `none` (`docker logs` won't be available) and `syslog`.
+
+Use logging in non-blocking mode, which adds a buffer (specify a buffer size) that drops messages under pressure (overflow), which is preferrable to things getting blocked due to logging (more: https://docs.docker.com/config/containers/logging/configure/): `--log-opt mode=non-blocking --log-opt max-buffer-size=4m`.
+
+### Entrypoint (TODO)
+
+* https://docs.docker.com/engine/reference/run/#entrypoint-default-command-to-execute-at-runtime
+
+### Exposing incoming ports (TODO)
+
+* https://docs.docker.com/engine/reference/run/#expose-incoming-ports
+
+### Mounting and using volumes (TODO)
+
+* https://docs.docker.com/engine/reference/run/#volume-shared-filesystems
+
+### Setting and using a working directory (TODO)
+
+* https://docs.docker.com/engine/reference/run/#workdir
 
 ## How to debug containers with `--pid`
 
