@@ -14,6 +14,10 @@ newgrp docker
 sudo docker run hello-world
 ```
 
+```bash
+sudo apt install docker-compose
+```
+
 ## Install GPU support (nvidia dockers for Ubuntu 20.04)
 
 ```bash
