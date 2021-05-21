@@ -25,7 +25,8 @@
 
 * [tempfile](python/tempfile/README.md)
   * [Untitled](python/tempfile/untitled.md)
-* [Python](python/python.md)
+* [Python](python/python/README.md)
+  * [tempfile](python/python/tempfile.md)
 * [iterables](python/iterables.md)
 
 ## Linux
