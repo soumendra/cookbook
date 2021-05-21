@@ -14,28 +14,25 @@
   - [Audio datasets](datasets/audio_datasets.md)
   - [Tabular datasets](datasets/tabular_datasets.md)
   - [Large datasets](datasets/large_datasets.md)
+- [Git](git/README.md)
+  - [Remove history](git/remove_history.md)
+- [Linux](linux/README.md)
+  - [Remap keyboard](linux/remap_keyboard.md)
+  - [Split-download-combine](linux/split_download_combine.md)
 
 ## Deep Learning
 
-- [Computer Vision](misc/computer-vision.md)
+- [Computer Vision](computer_vision/README.md)
+  - [Your network is always overfitting](computer_vision/your-network-is-always-overfitting.md)
+- [Visualization](visualization/README.md)
+  - [tSNE](visualization/tsne.md)
+  - [Keras models](visualization/keras_models.md)
 
-## Visualization
-
-- [tSNE](visualization/tsne.md)
-- [Keras models](visualization/keras_models.md)
+## Coding
 
 - [Python](python/README.md)
   - [tempfile](python/tempfile/README.md)
   - [iterables](python/iterables.md)
-
-## Linux
-
-- [Remap keyboard](linux/remap_keyboard.md)
-- [Split-download-combine](linux/split_download_combine.md)
-
-## Git
-
-- [Remove history](git/remove_history.md)
 
 ## Misc
 
