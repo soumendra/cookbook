@@ -29,7 +29,7 @@
 - [Visualization](visualization/README.md)
   - [tSNE](visualization/tsne.md)
   - [Keras models](visualization/keras_models.md)
-  - [EDA](eda.md)
+  - [EDA](visualization/eda.md)
 
 ## Coding
 
