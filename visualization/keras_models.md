@@ -2,9 +2,9 @@
 description: Visualising your keras model
 ---
 
-# Model Visualization
+# Keras models
 
-## Using built-in function \(keras.utils.plot_model\)
+## Using built-in function \(keras.utils.plot\_model\)
 
 Source: [https://keras.io/visualization/](https://keras.io/visualization/)
 
@@ -34,3 +34,4 @@ plot_model(model,
            to_file='model.png',
            show_shapes=True)
 ```
+

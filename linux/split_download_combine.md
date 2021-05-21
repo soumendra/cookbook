@@ -1,4 +1,4 @@
-## Split-download-combine a large file from a server
+# Split-download-combine
 
 ```text
 from shutil import make_archive
@@ -8,3 +8,4 @@ make_archive("data", 'zip', "folder-to-be-zipped/")
 
 cat zip_large.??? > data.zip
 ```
+
