@@ -1,4 +1,4 @@
-# Setting up python in a remote server
+## Setting up python in a remote server
 
 ```python
 sudo apt -y update
