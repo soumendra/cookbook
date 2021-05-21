@@ -24,9 +24,12 @@
 
 - [Computer Vision](computer_vision/README.md)
   - [Your network is always overfitting](computer_vision/your-network-is-always-overfitting.md)
+- [Natural Language Processing](natural_language_processing/README.md)
+- [Deep Audio](deep_audio/README.md)
 - [Visualization](visualization/README.md)
   - [tSNE](visualization/tsne.md)
   - [Keras models](visualization/keras_models.md)
+  - [EDA](eda.md)
 
 ## Coding
 
