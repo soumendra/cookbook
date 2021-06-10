@@ -31,6 +31,13 @@
   - [Keras models](visualization/keras_models.md)
   - [EDA](visualization/eda.md)
 
+## IoT
+
+- [IoT](iot/README.md)
+  - [Home automation libraries](iot/home_automation_libraries.md)
+  - [Indian stores](iot/indian_stores.md)
+  - [Curated projects](iot/curated_projects.md)
+
 ## Coding
 
 - [Python](python/README.md)
