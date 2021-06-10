@@ -27,6 +27,7 @@
 - [Natural Language Processing](natural_language_processing/README.md)
 - [Deep Audio](deep_audio/README.md)
 - [Visualization](visualization/README.md)
+  - [Auto EDA](visualization/auto_eda.md)
   - [tSNE](visualization/tsne.md)
   - [Keras models](visualization/keras_models.md)
   - [EDA](visualization/eda.md)
@@ -41,6 +42,8 @@
 ## Coding
 
 - [Python](python/README.md)
+  - [Working with Pydantic](python/working_with_pydantic.md)
+  - [Working with Poetry](python/working_with_poetry.md)
   - [tempfile](python/tempfile/README.md)
   - [iterables](python/iterables.md)
 
